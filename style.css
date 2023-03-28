@@ -98,3 +98,40 @@ ul {
   width: 230px;
   border-radius: 5%;
 }
+
+/* experience component */
+.text-experience {
+  margin-bottom: 1.5rem;
+}
+
+.text-airforce {
+  margin-bottom: 0.25rem;
+}
+
+.project h1 a {
+  text-decoration: none;
+  color: #506f8a;
+}
+
+.project h2 {
+  margin-top: 2rem;
+  font-size: 18px;
+}
+
+.project h3 {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 16px;
+}
+
+.text-explanation {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 14px;
+}
+
+.text-explanation-details {
+  margin-top: 0.3rem;
+  line-height: 1.7;
+  font-size: 12px;
+}
