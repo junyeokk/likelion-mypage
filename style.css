@@ -39,7 +39,7 @@ h1 {
   font-weight: 900;
 }
 
-ul {
+.header ul {
   display: flex;
   list-style-type: none;
 }
@@ -104,6 +104,27 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.15) 4.95px 4.95px 5.6px;
 }
 
+/* bio component */
+.bio ul li {
+  margin-top: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.bio h3 {
+  margin-top: 0.5rem;
+  line-height: 1.8;
+  color: gray;
+  font-size: 15px;
+}
+
+.bio h3 a {
+  color: rgb(78, 78, 78);
+}
+
+.text-coffee {
+  color: rgb(198, 198, 198);
+}
+
 /* blog component */
 .blog h1 a {
   text-decoration: none;
@@ -151,9 +172,9 @@ ul {
 }
 
 .project h3 {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
   color: gray;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .text-explanation {
