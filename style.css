@@ -97,27 +97,32 @@ ul {
 .photo-main {
   width: 230px;
   border-radius: 5%;
+  transition: 0.5s;
 }
 
-/* introduce component */
-.introduce h1 a {
+.photo-main:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 4.95px 4.95px 5.6px;
+}
+
+/* blog component */
+.blog h1 a {
   text-decoration: none;
   color: #506f8a;
 }
 
-.introduce h2 {
+.blog h2 {
   margin-top: 0.75rem;
   font-size: 18px;
 }
 
-.introduce h3 {
+.blog h3 {
   margin-top: 0.5rem;
   line-height: 1.8;
   color: gray;
   font-size: 15px;
 }
 
-.introduce ol li {
+.blog ol li {
   margin-left: 1.5rem;
 }
 
@@ -138,6 +143,11 @@ ul {
 .project h2 {
   margin-top: 2rem;
   font-size: 18px;
+}
+
+.project h2 a {
+  text-decoration: none;
+  color: #506f8a;
 }
 
 .project h3 {
